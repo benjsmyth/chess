@@ -1,5 +1,5 @@
 # chess
-A complete implementation of chess.
+An incomplete implementation of chess.
 
 ## Complete features
 - Board environment (see `chessboard.py`, but be warned - it's a bit of a mess!)
