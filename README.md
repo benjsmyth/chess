@@ -2,15 +2,12 @@
 An incomplete implementation of chess.
 
 ## Complete features
-- Board environment (see `chessboard.py`, but be warned - it's a bit of a mess!)
+- Board environment
     - Board display
     - Piece taking
     - Piece movement
-        - Although I believe I covered nearly all cases of legal and illegal movements,
-    there is quite likely something that I missed.
-        - Consequently the AI may choose to make an illegal move that I never considered checking.
-        - One significant bug is that the AI does not recognize a 2-Pawn opener as a legal move.
-- AI environment (see `computer.py`)
+        - Bug: AI does not recognize a 2-Pawn opener as a legal move.
+- AI environment (see `players.py`)
     - Internal state
     - AB-minimax
 
