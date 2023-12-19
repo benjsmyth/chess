@@ -15,16 +15,10 @@ An artificially intelligent chess player.
     - AB-minimax
 
 ## Incomplete features
-- Promotion (not attempted)
-- Castling (not attempted)
-- Stalemate (not attempted)
+- Promotion
+- Castling
+- Stalemate
 - Check / Checkmate
-    - I wrote quite a bit of code for this but in the end I did not wrap it up.
-    - On each turn the program runs a test. It does this by examining the neighbourhood surrounding the opponent's King,
-            and then inspecting the lines of fire of the attacking pieces.
-     - This is actually a LOT more complicated than I realized ...
-    - Since this functionality is incomplete, it may signal Check / Checkmate at the right or wrong times.
-    - Consequently the game could possibly crash on ending, because I did not test this far enough.
 
 ## Evaluation method
 - Simple weighted sum of (# of attacking pieces - # of opposing pieces).
