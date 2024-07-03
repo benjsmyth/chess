@@ -1,5 +1,6 @@
+# **_Under construction_**
 # chess
-An incomplete implementation of chess.
+Intelligent chess
 
 ## Complete features
 - Board environment
